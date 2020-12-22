@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section ('content')
-    <div class="container">
+    <div class="container-card">
         @foreach ($formati as $formato)
             <div class="card">
                 <img src="{{ $formato['src'] }}" alt="{{ $formato['titolo'] }}">
