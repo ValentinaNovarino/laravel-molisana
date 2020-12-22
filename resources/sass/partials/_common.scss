@@ -1,10 +1,27 @@
-body {
-    font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.clear-fix {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    padding: $spacing * 3;
+    background-image: url('/images/sfondo-main.jpg');
 }
 
 .container-card {

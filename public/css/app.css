@@ -1,10 +1,27 @@
-body {
-  font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.clear-fix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  padding: 60px;
+  background-image: url("/images/sfondo-main.jpg");
 }
 
 .container-card {
@@ -70,5 +87,51 @@ header .header-menu ul li a {
   padding: 0 20px;
   color: black;
   font-size: 16px;
+}
+
+footer {
+  padding-top: 60px;
+  color: grey;
+}
+
+footer .contact {
+  float: left;
+  width: calc(100% / 3);
+}
+
+footer .contact span {
+  display: block;
+}
+
+footer .contact img {
+  display: block;
+}
+
+footer .left-info,
+footer .right-info {
+  float: left;
+  width: calc(100% / 3);
+}
+
+footer .left-info h2,
+footer .right-info h2 {
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+footer .left-info ul,
+footer .right-info ul {
+  list-style-type: none;
+}
+
+footer .left-info ul a,
+footer .right-info ul a {
+  text-decoration: none;
+  color: grey;
+  line-height: 30px;
+}
+
+footer img {
+  max-width: 100%;
 }
 
