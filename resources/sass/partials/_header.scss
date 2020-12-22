@@ -1,0 +1,29 @@
+header {
+    height: 200px;
+
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-menu {
+        display: flex;
+        justify-content: center;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 $spacing;
+                    color: $menu-color;
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+}
