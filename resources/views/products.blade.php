@@ -1,4 +1,15 @@
 @extends('layout.app')
 @section ('content')
-    <h1>Products</h1>
+    <div class="container">
+        @foreach ($formati as $formato)
+            <div class="card">
+                <img src="{{ $formato['src'] }}" alt="{{ $formato['titolo'] }}">
+                <div class="overlay">
+                    <a href="#">
+                        {{ $formato['titolo'] }}
+                    </a>
+                </div>
+            </div>
+        @endforeach
+    </div>
 @endsection
