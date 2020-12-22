@@ -16,6 +16,7 @@ footer {
     }
 
     .left-info, .right-info {
+        padding-left: $spacing;
         float: left;
         width: calc(100% / 3);
 

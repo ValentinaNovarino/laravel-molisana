@@ -67,6 +67,7 @@ header {
 header #logo {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 header .header-menu {
@@ -109,6 +110,7 @@ footer .contact img {
 
 footer .left-info,
 footer .right-info {
+  padding-left: 20px;
   float: left;
   width: calc(100% / 3);
 }
