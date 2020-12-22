@@ -6,14 +6,12 @@
         <title></title>
     </head>
     <body>
-        <header>
-
-        </header>
+        @include('partials.header')
         <main>
             @yield('content')
         </main>
         <footer>
-            
+
         </footer>
 
         <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
