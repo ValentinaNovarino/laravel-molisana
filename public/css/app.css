@@ -24,6 +24,13 @@ main {
   background-image: url("/images/sfondo-main.jpg");
 }
 
+h1 {
+  text-transform: uppercase;
+  color: #000080;
+  padding: 20px 0;
+  font-weight: 400;
+}
+
 .container-card {
   display: flex;
   flex-wrap: wrap;
