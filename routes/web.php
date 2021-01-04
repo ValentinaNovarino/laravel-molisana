@@ -36,7 +36,7 @@ $data = [
 
 Route::get('/product-details/{id}', function($id) {
     $formati = config('pasta');
-    if(is_numeric($id) && $id > 0 && $id < count($array_pasta)) {
+    if(is_numeric($id) && $id > 0 && $id < count($formati)) {
         $prodotto = $formati[$id];
         $data = [
             'formato' => $prodotto
@@ -45,7 +45,7 @@ Route::get('/product-details/{id}', function($id) {
     } else {
         abort('404');
     }
-})->name('pagina-dettaglio');
+})->name('product-details');
 
 Route::get('/news', function () {
     return view('news');

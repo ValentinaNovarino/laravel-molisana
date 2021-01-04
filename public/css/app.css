@@ -19,7 +19,7 @@ body {
   font-family: sans-serif;
 }
 
-main {
+.container-products {
   padding: 60px;
   background-image: url("/images/sfondo-main.jpg");
 }

@@ -1,4 +1,8 @@
 @extends('layout.app')
 @section ('content')
-    <h1>Details</h1>
+    <div class="container-details">
+        <div class="container">
+            <h1>{{ $formato['titolo']}}</h1>
+        </div>
+    </div>
 @endsection
