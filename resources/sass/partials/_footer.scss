@@ -8,6 +8,7 @@ footer {
 
         span {
             display: block;
+            font-size: $footerFont;
         }
 
         img {
@@ -32,6 +33,7 @@ footer {
                 text-decoration: none;
                 color: grey;
                 line-height: 30px;
+                font-size: $footerFont;
             }
         }
     }

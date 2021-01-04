@@ -146,3 +146,7 @@ $data = [
 
     return view('products', $data);
 })->name('products');
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
